@@ -11,4 +11,6 @@ public class Pc
     public int Warranty { get; set; }
     public DateTime CreatedAt { get; set; }
     public int Stock { get; set; }
+    
+    public ICollection<PcComponent> Components { get; set; } = new List<PcComponent>();
 }
