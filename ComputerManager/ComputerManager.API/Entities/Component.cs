@@ -9,6 +9,7 @@ public class Component
     public string Code { get; set; } = string.Empty;
     [MaxLength(300)]
     public string Name { get; set; }  = string.Empty;
+    [MaxLength(2000)]
     public string Description { get; set; }  = string.Empty;
     
     //klucz obcy
